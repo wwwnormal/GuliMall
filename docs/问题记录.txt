@@ -1,0 +1,9 @@
+1. npm install报错
+    npm版本问题，而且描述的问题很可怕，居然提到vscode版本老，非常荒谬
+    npm install --legacy-peer-deps就可以了
+
+2. product测试插入一条brand时报错
+    刚开始插入的中文“华为”，报错：在尝试将字符串'\xE5\x8D\x8E\xE4\xB8\xBA'插入数据库表pms_brand的name列时发生了问题。
+    但是我已经设置了utf-8，无需多追究，先插入英文过测试就可以了
+
+3.
